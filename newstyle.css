@@ -1,0 +1,75 @@
+.bg-primary{
+    background-color: rgb(233, 233, 233) !important;
+}
+
+
+.submit{
+    background-color: red;
+    text-align: center;
+    height: 29px;
+    border-radius: 10px 10px 10px 10px;
+}
+.submit a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.bg-secondary{
+    background-color: rgb(158, 156, 156) !important;
+}
+.secondary{
+    padding-bottom: 25px;
+    border-radius: 8px 8px 8px 8px
+}
+.bg{
+    background-color: rgb(228, 221, 221);
+}
+.download{
+    margin-top: 100px;
+    margin: 100px;
+}
+
+
+
+/* books */
+.download{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 180px;
+    text-align: center;
+    }
+    .pdf{
+        background-color: red;
+        padding: 20px;
+    }
+    .pdf a{
+        color: white;
+        text-decoration: none;
+    }
+    .reds{
+        color: red;
+        margin-top: 40px;
+    }
+    .down{
+    font-weight: bold;
+    }
+    @media(max-width:420px){
+        .download{
+            margin: 0 auto;
+            width: 250px;
+            margin-top: 180px;
+            text-align: center;
+            }
+            .pdf{
+                background-color:red;
+                padding: 10px;
+            }   
+            .reds{
+                font-size: 15px;
+            }
+            .down{
+                font-size: 15px;
+                margin-top: 20px;
+            }
+    }
